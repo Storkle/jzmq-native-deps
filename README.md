@@ -1,6 +1,6 @@
 # jzmq-clojars
 
-ZeroMQ Java bindings all packaged up and ready for use with leiningen + clojars.org.  Includes Mac OS X and Linux x86 bindings.  Please fork and build for other architectures!
+ZeroMQ Java bindings all packaged up and ready for use with leiningen + clojars.org.  Currently only includes Mac OS X x86 bindings.  Please fork and build for other architectures!
 
 ## Usage
 
