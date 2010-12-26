@@ -1,3 +1,5 @@
-(defproject org.clojars.bobby/jzmq-clojars "2.0.9-SNAPSHOT"
+(defproject org.clojars.starry/jzmq-native-deps "2.0.9-SNAPSHOT"
   :description "ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
-                Only includes Mac OS X x86 native dependencies at this time.  Please fork ")
+                Includes Mac OS X x86, linux x86, linux x86_64, window x86, and window x86_64. Please fork and build for other architectures!") 
+ 
+ 

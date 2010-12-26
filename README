@@ -1,0 +1,32 @@
+# jzmq-native-deps
+
+ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org. Includes Mac OS X x86, linux x86, linux x86_64, window x86, and window x86_64. Please fork and build for other architectures!
+
+to jar up, do the following:
+lein pom
+jar -cMf jzmq-native-deps-2.0.9-SNAPSHOT native lib
+
+and to push to clojars (note: you must change org.clojars.starry in project.clj to your group id for clojars)
+
+scp pom.xml jzmq-native-deps-2.0.9-SNAPSHOT clojars@clojars.org:
+
+or to install to local maven repository
+maven
+
+Make sure that the version in the project.clj is the same as that in the jar file name above!
+
+## Usage
+
+In your project.clj:
+
+    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9-SNAPSHOT"]]
+     
+## Acknowledgements 
+
+This concept borrows from and updates [this library](http://clojars.org/org.clojars.mikejs/jzmq-native-deps) from clojars' [mikejs](http://clojars.org/users/mikejs).
+
+## License
+
+Copyright (C) Bobby Calderwood
+
+Distributed under the Eclipse Public License, the same as Clojure.
