@@ -1,4 +1,4 @@
 pom.xml
 *.jar
-/README~
-/jzmq-native-deps-2.0.9-SNAPSHOT
+/target/maven-archiver/pom.properties
+*~

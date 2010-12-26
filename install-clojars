@@ -1,0 +1,4 @@
+#linux script, jar up and push to clojars
+jar -cMf jzmq-native-deps-2.0.9-SNAPSHOT.jar native lib
+scp pom.xml jzmq-native-deps-2.0.9-SNAPSHOT clojars@clojars.org:
+
