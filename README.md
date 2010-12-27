@@ -1,4 +1,4 @@
-# jzmq-native-deps
+# jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
 Includes linux x86_64 //will include  linux x86, , window x86, and window x86_64. Please fork and build for other architectures!
 
