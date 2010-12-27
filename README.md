@@ -14,15 +14,12 @@ Make sure that the version in the project.clj is the same as that in the jar fil
 ## Usage
 
 In your project.clj:
-
-    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9-SNAPSHOT"]]
-     
+    :dev-dependencies [[native-deps "1.0.5"]]
+    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.0"]] 
 ## Acknowledgements 
 
 This concept borrows from and updates [this library](http://clojars.org/org.clojars.mikejs/jzmq-native-deps) from clojars' [mikejs](http://clojars.org/users/mikejs).
 
 ## License
-
-Copyright (C) Bobby Calderwood
 
 Distributed under the Eclipse Public License, the same as Clojure.
