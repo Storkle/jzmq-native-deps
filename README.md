@@ -4,6 +4,8 @@ Includes linux x86_64, linux x86 //will include window x86, and window x86_64. P
 
 NOTE: Mac OS X x86 not tested, and doesnt include native  c library, only java library native binding (because i dont have mac!)
 
+Linux x86 and x86 are built with zeromq 2.0.10, no clue on the mac side (i didnt' build them).
+
 look at build scripts for example how to isntall to local repository and/or clojars. you can get a pom file automatically generated
 by first installing to native repository and taking the pom from there...
 
@@ -13,7 +15,7 @@ Make sure that the version in the project.clj is the same as that in the jar fil
 
 In your project.clj:
     :dev-dependencies [[native-deps "1.0.5"]]
-    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.1"]]
+    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.2"]]
 
 and then just type
 lein native-deps
