@@ -13,7 +13,10 @@ Make sure that the version in the project.clj is the same as that in the jar fil
 
 In your project.clj:
     :dev-dependencies [[native-deps "1.0.5"]]
-    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.1"]] 
+    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.1"]]
+
+and then just type
+lein native-deps
 ## Acknowledgements 
 
 This concept borrows from and updates [this library](http://clojars.org/org.clojars.mikejs/jzmq-native-deps) from clojars' [mikejs](http://clojars.org/users/mikejs).
