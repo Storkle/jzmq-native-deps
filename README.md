@@ -3,7 +3,8 @@ ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-d
 Includes linux x86 and mac x86_64 //will include window x86, and window x86_64. Please fork and build for other architectures!
 
 ## Jzmq version used
-https://github.com/zeromq/jzmq
+[jzmq](https://github.com/zeromq/jzmq)
+
 commit number:
 ee2d21e1aa9ecd4e1a0b
 
