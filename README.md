@@ -6,6 +6,7 @@ Includes linux x86 and mac x86_64 //will include window x86, and window x86_64. 
 https://github.com/zeromq/jzmq
 commit number:
 ee2d21e1aa9ecd4e1a0b
+
 commit comment:
 Added support for unregistering sockets from poller. 
 
