@@ -9,7 +9,10 @@ commit number:
 ee2d21e1aa9ecd4e1a0b
 
 commit comment:
-Added support for unregistering sockets from poller. 
+Added support for unregistering sockets from poller.
+
+commit date:
+December 29, 2010
 
 ## Usage in Project.clj
 
