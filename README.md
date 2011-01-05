@@ -11,7 +11,7 @@ ee2d21e1aa9ecd4e1a0b
 commit comment:
 Added support for unregistering sockets from poller. 
 
-## Usage
+## Usage in Project.clj
 
 In your project.clj:
     :dev-dependencies [[native-deps "1.0.5"]]
@@ -23,6 +23,18 @@ lein native-deps
 You also need to install zeromq 2.0.10 separately for your platform
  
 [zeromq](http://www.zeromq.org/intro:get-the-software)
+
+## Usage
+The key thing to remember is that sockets are not thread safe. And they cant be made thread safe with locks - only the thread which creates the socket should use it
+in any manner! A context is thread safe. This is not really as bad as it might seem at first, however. At least for me - i use it by having a thread which acts a 'service' and accepts requests from the program and then sends them over the socket. I use a poller which polls over local requests (over inproc) and over external events (tcp, etc.) Read the zeromq manual to actually understand this!
+
+Example usage is here:
+[JZMQ thin wrapper](http://github.com/Storkle/clj-forex/blob/master/src/forex/util/zmq.clj)
+
+[Wrapping for thread service](http://github.com/Storkle/clj-forex/blob/master/src/forex/util/spawn.clj)
+
+[Thread Service](http://github.com/Storkle/clj-forex/blob/master/src/forex/backend/mql/socket_service.clj)
+
 
 ## Acknowledgements 
 
