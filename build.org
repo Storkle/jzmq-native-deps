@@ -1,0 +1,6 @@
+* About
+This describes which jzmq commit number was built per version of jzmq-native-deps,
+starting with jzmq-native-deps 2.0.10
+* 2.0.10
+jzmq commit number: ee2d21e1aa9ecd4e1a0b
+jzmq commit comment: Added support for unregistering sockets from poller.
