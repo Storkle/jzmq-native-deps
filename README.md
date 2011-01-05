@@ -15,13 +15,14 @@ Added support for unregistering sockets from poller.
 
 In your project.clj:
     :dev-dependencies [[native-deps "1.0.5"]]
-    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.9.2"]]
+    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.10"]]
 
 and then just type
 lein native-deps
 
 You also need to install zeromq 2.0.10 separately for your platform
-http://www.zeromq.org/intro:get-the-software
+ 
+[zeromq](http://www.zeromq.org/intro:get-the-software)
 
 ## Acknowledgements 
 
