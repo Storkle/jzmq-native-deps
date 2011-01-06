@@ -15,16 +15,9 @@ commit date:
 December 29, 2010
 
 ## Usage in Project.clj
+Look at sample_project.clj in this directory.
 
-In your project.clj:
-    :dev-dependencies [[native-deps "1.0.5"]]
-    :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.10"]]
-
-and then just type
-
-lein native-deps
-
-You also need to install zeromq 2.0.10 separately for your platform
+You also need to install zeromq 2.0.10 separately for your platform.
  
 [zeromq](http://www.zeromq.org/intro:get-the-software)
 
