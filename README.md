@@ -1,7 +1,7 @@
 # jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
-Includes linux x86 and mac x86_64 //will include window x86, and window x86_64. Please fork and build for other architectures!
-
+Includes linux x86, mac x86_64, and mac x86(??) //will include window x86, and window x86_64. Please fork and build for other architectures!
+ 
 ## Jzmq version used
 [jzmq](https://github.com/zeromq/jzmq)
 
@@ -21,6 +21,7 @@ In your project.clj:
     :native-dependencies [[org.clojars.starry/jzmq-native-deps "2.0.10"]]
 
 and then just type
+
 lein native-deps
 
 You also need to install zeromq 2.0.10 separately for your platform
