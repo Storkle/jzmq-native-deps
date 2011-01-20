@@ -1,6 +1,6 @@
 #linux script, jar up and push to clojars
-jar -cMf jzmq-native-deps-2.0.10.jar native lib
-scp pom.xml jzmq-native-deps-2.0.10.jar clojars@clojars.org:
+jar -cMf jzmq-native-deps-2.0.10.1.jar native lib
+scp pom.xml jzmq-native-deps-2.0.10.1.jar clojars@clojars.org:
 
 
  
