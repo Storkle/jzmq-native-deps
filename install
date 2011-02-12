@@ -1,5 +1,5 @@
 #linux script, jar up and then install into local repository
-jar -cMf jzmq-native-deps-2.0.10.1.jar native lib
-mvn install:install-file -Dfile=jzmq-native-deps-2.0.10.1.jar -DgroupId=org.clojars.starry \
-    -DartifactId=jzmq-native-deps -Dversion=2.0.10.1 -Dpackaging=jar
+jar -cMf jzmq-native-deps-2.0.10.2.jar native lib
+mvn install:install-file -Dfile=jzmq-native-deps-2.0.10.2.jar -DgroupId=org.clojars.starry \
+    -DartifactId=jzmq-native-deps -Dversion=2.0.10.2 -Dpackaging=jar
 

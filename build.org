@@ -9,3 +9,7 @@ jzmq commit comment: Added support for unregistering sockets from poller.
 commit date: December 29, 2010
 * 2.0.10.1
 added support for windows x86
+* 2.0.10.2 , Feb. 12
+fixed bug in jzmq library - need to use zmq_errno() instead of errno for windows, otherwise errors are always thrown as "No Error". So i went into the source
+code and replaced errno by zmq_errno() for everything - hopefully i didnt make any mistakes!
+
