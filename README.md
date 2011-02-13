@@ -1,5 +1,5 @@
 Latest version is 2.0.10.2
-
+ 
 # jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
 Includes linux x86, mac x86_64, and mac x86(??) //will include window x86, and window x86_64. Please fork and build for other architectures!
