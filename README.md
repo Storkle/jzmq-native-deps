@@ -3,6 +3,7 @@ Latest version is 2.0.10.2
 # jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
 Includes linux x86, mac x86_64, and mac x86(??) //will include window x86, and window x86_64. Please fork and build for other architectures!
+Inludes windows  x86. There is also a windows x86_64 folder with same dll as windows x86 (but this is NOT 64 bit! but it can work on 64 bit - if you run 32 bit java and place a 32 bit libzmq.dll into c:\system\sysWOW64 - this is just temporary until i have time to built 64 bit version).
  
 ## Jzmq version used
 [jzmq](https://github.com/zeromq/jzmq)
