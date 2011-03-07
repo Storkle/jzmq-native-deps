@@ -1,4 +1,4 @@
-Latest version is 2.0.10.2
+Latest version is 2.0.10.4
  
 # jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.

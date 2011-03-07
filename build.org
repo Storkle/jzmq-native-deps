@@ -14,3 +14,5 @@ fixed bug in jzmq library - need to use zmq_errno() instead of errno for windows
 code and replaced errno by zmq_errno() for everything - hopefully i didnt make any mistakes!
 * 2.0.10.3, Feb 13
 changed jzmq on windows to release build. added windows x86_64 directory with 32 bit dll in it (see README).
+* 2.0.10.4 March 7
+added 64 bit linux so file
