@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.clojars.starry</groupId>
   <artifactId>jzmq-native-deps</artifactId>
-  <version>2.0.10.3</version>
+  <version>2.0.10.4</version>
   <name>jzmq-native-deps</name>
   <description>ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
                 Includes Mac OS X x86, linux x86, linux x86_64, window x86, and window x86_64. Please fork and build for other architectures!</description>
